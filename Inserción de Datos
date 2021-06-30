@@ -1,0 +1,53 @@
+insert into ACEPTACION values(1,'ACEPTADA');
+insert into ACEPTACION values(2,'RECHAZADA');
+
+
+insert into CONTRATO values(1,'EXTERNO');
+insert into CONTRATO values(2,'PROPIO');
+
+
+insert into ENCUESTA values(1,'SATISFACTORIO');
+insert into ENCUESTA values(2,'REGULAR');
+insert into ENCUESTA values(3,'MALO');
+
+
+insert into HORARIO_TUTORIA values(1,1,1,'10:00:00','05-05-2021','INDIVIDUALISMO Y COLECTIVISMO','https://zoom.us/j/9860203712
+',2);
+insert into HORARIO_TUTORIA values(2,1,2,'11:00:00','06-05-2021','TOPOLOGIAS FISICAS Y LOGICAS','https://zoom.us/K/9860203713
+',1);
+insert into HORARIO_TUTORIA values(3,1,3,'12:00:00','07-05-2021','ADMINISTRACION DE BASE DE DATOS','https://zoom.us/G/9860203714
+',1);
+
+
+insert into MEDIO_TUTORIA values(1,'ZOOM');
+insert into MEDIO_TUTORIA values(2,'SKYPE');
+insert into MEDIO_TUTORIA values(3,'MICROSOFT TEAMS');
+
+
+insert into MODALIDAD values(1,'VIRTUAL');
+insert into MODALIDAD values(2,'PRESENCIAL');
+
+
+insert into PAGO_TUTORIA values(1,1,1,25.00,'INDIVIDUALISMO Y COLECTIVISMO');
+insert into PAGO_TUTORIA values(2,2,2,30.00,'TOPOLOGIAS FISICAS Y LOGICAS');
+insert into PAGO_TUTORIA values(3,3,3,35.00,'ADMINISTRACION DE BASE DE DATOS');
+
+
+insert into PLAN_COMPRA values(1,1,1,'01-04-2021','01-11-2021',250.00,500);
+insert into PLAN_COMPRA values(2,1,2,'01-05-2021','01-12-2021',400.00,1000);
+insert into PLAN_COMPRA values(3,1,3,'01-06-2021','01-10-2021',150.00,300);
+
+
+insert into TUTOR values(1,1,2,'1307776730','Klever','Delgado','Ingeniero en Sistemas','0990448923','klever@gmail.com');
+insert into TUTOR values(2,1,1,'1308946076','Jorge','Herrera','Ingeniero en Sistemas','0989826819','jorge@gmail.com');
+insert into TUTOR values(3,1,2,'1751054089','Roberth','Moreira','Ingeniero en Sistemas','0988337077','roberth@gmail.com');
+
+
+insert into TUTORADO values(1,'1351528441','Josue','Cobos','estudiante','0934562347','josue@gmail.com','Ecuador','Manabí');
+insert into TUTORADO values(2,'1312456762','Jonathan','Mero','estudiante','0976459823','jonathan@gmail.com','Ecuador','Manabí');
+insert into TUTORADO values(3,'1302675839','Jenniffer','Pico','estudiante','0987345623','jennifer@gmail.com','Ecuador','Manabí');
+
+
+insert into TUTORIA values(1,1,1,1,1);
+insert into TUTORIA values(2,2,2,2,3);
+insert into TUTORIA values(3,1,3,3,1);
